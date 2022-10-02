@@ -209,22 +209,3 @@
     }
   }
   
-  // MAIN CONTENT 
-  // FIRST SECTIONg
-  
-  main {
-    height: 100vh;
-    background-color: red;
-    padding-top: 0px;
-    width: 100%;
-  
-    .ellipse {
-      width: 100%;
-  z-index: -1;
-      background: #4a154b;
-      border: none;
-      clip-path: ellipse(75% 100% at center left);
-      height: 370px;
-    }
-  }
-  

@@ -255,17 +255,82 @@ table {
 }
 
 main {
-  height: 100vh;
-  background-color: red;
-  padding-top: 0px;
-  width: 100%;
+  width: 100vw;
+  position: relative;
 }
-main .ellipse {
+main .hero {
+  background-color: #541554;
+  height: 885px;
   width: 100%;
-  z-index: -1;
-  background: #4a154b;
-  border: none;
-  -webkit-clip-path: ellipse(75% 100% at center left);
-          clip-path: ellipse(75% 100% at center left);
-  height: 370px;
+  padding: 0 4vw;
+  color: white;
+}
+main .hero h1 {
+  padding-top: 85px;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  text-align: center;
+  font-weight: 650;
+  padding-bottom: 10px;
+}
+main .hero h1 span {
+  color: #ecb22e;
+}
+main .hero p {
+  text-align: center;
+  font-weight: 200;
+  padding-bottom: 70px;
+  line-height: 1.5em;
+}
+main .hero__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .hero__links a {
+  height: 57px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: whitesmoke;
+}
+main .hero__links a:nth-of-type(2) {
+  margin-top: 10px;
+  background-color: #4285f4;
+  color: white;
+  position: relative;
+}
+main .hero__links a:nth-of-type(2) img {
+  position: absolute;
+  height: 90%;
+  left: 5px;
+}
+main .hero__image {
+  width: 100%;
+  margin-top: 8%;
+  height: 350px;
+}
+main .hero__image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .widget {
+  background-color: #541554;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 40px;
+  border-radius: 4px;
+}
+main .widget span {
+  font-size: 2em;
 }/*# sourceMappingURL=styles.css.map */

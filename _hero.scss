@@ -1,0 +1,89 @@
+// MAIN CONTENT
+// FIRST SECTIONg
+section {
+}
+main {
+  width: 100vw;
+  position: relative;
+
+  .hero {
+    background-color: $slack-color;
+    height: 885px;
+    width: 100%;
+    padding: 0 4vw;
+    color: white;
+
+    h1 {
+      padding-top: 85px;
+      font-size: 2.5em;
+      line-height: 1.2em;
+      text-align: center;
+      font-weight: 650;
+      padding-bottom: 10px;
+      span {
+        color: #ecb22e;
+      }
+    }
+    p {
+      text-align: center;
+      font-weight: 200;
+      padding-bottom: 70px;
+      line-height: 1.5em;
+    }
+    &__links {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      a {
+        height: 57px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        background-color: whitesmoke;
+
+        &:nth-of-type(2) {
+          margin-top: 10px;
+          background-color: #4285f4;
+          color: white;
+          position: relative;
+
+          img {
+            position: absolute;
+            height: 90%;
+            left: 5px;
+          }
+        }
+      }
+    }
+    &__image {
+      width: 100%;
+      margin-top: 8%;
+      height: 350px;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .widget{
+    background-color: $slack-color;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height: 60px;
+    bottom: 30px;
+    right: 40px;
+    border-radius: 4px;
+    span{
+        font-size: 2em;
+    }
+  }
+}
