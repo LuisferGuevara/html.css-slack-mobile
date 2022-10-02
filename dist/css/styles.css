@@ -407,13 +407,13 @@ section {
   padding-bottom: 20px;
 }
 .teams__text a {
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #1264a3;
 }
 
 .flexibility {
   padding-top: 45px;
-  height: 785px;
+  height: 795px;
   position: relative;
   z-index: -1;
 }
@@ -434,10 +434,11 @@ section {
   padding: 0 4vw;
 }
 .flexibility__text h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   padding-top: 35px;
   padding-bottom: 20px;
   font-weight: bold;
+  line-height: 1.5em;
 }
 .flexibility__text p {
   font-size: 1.1em;
@@ -445,6 +446,46 @@ section {
   padding-bottom: 20px;
 }
 .flexibility__text a {
-  font-size: 1.2em;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  color: #1264a3;
+}
+
+.agility {
+  padding-top: 45px;
+  height: 845px;
+  position: relative;
+  z-index: -1;
+}
+.agility__image {
+  background-color: #ecb22e;
+  height: 400px;
+  width: 100%;
+  -webkit-clip-path: ellipse(75% 59% at center left);
+          clip-path: ellipse(75% 59% at center left);
+}
+.agility__image img {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 10%;
+  height: 95%;
+}
+.agility__text {
+  padding: 0 4vw;
+}
+.agility__text h2 {
+  font-size: 1.8em;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+.agility__text p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+.agility__text a {
+  font-size: 1.1em;
   color: #1264a3;
 }/*# sourceMappingURL=styles.css.map */
