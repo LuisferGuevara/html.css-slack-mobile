@@ -4,7 +4,6 @@ section{
 }
 .features{
     p{
-        background-color: red;
         font-size: 1em;
         text-transform:uppercase;
         text-align: center;
@@ -15,10 +14,21 @@ section{
         line-height: 1.2em;
     }
     &__billboard{
-        background-color: lavender;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+        
+        div{
+            display: flex;
+            align-items: center;
+            max-width: 100%;
+
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
     }
 }

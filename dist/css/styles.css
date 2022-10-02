@@ -343,7 +343,6 @@ section {
 }
 
 .features p {
-  background-color: red;
   font-size: 1em;
   text-transform: uppercase;
   text-align: center;
@@ -354,9 +353,17 @@ section {
   line-height: 1.2em;
 }
 .features__billboard {
-  background-color: lavender;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+.features__billboard div {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.features__billboard div img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=styles.css.map */
