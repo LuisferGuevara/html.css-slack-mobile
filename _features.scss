@@ -1,16 +1,17 @@
 section{
     background-color: #f4ede5;
-    padding: 0 4vw;
 }
 .features{
+    padding: 0 4vw;
     p{
-        font-size: 1em;
+        font-size: .9em;
+        font-weight:600;
         text-transform:uppercase;
         text-align: center;
         padding-left: 8vw;
         padding-right: 8vw;
         padding-top: 35px;
-        padding-bottom: 16px;
+        padding-bottom: 30px;
         line-height: 1.2em;
     }
     &__billboard{
@@ -18,13 +19,13 @@ section{
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+        padding-bottom: 10px;
         
         div{
             display: flex;
             align-items: center;
             max-width: 100%;
-
-
+            margin-bottom: 20px;
             img{
                 width: 100%;
                 height: auto;
