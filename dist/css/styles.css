@@ -376,6 +376,8 @@ section {
 .teams {
   padding-top: 45px;
   height: 785px;
+  position: relative;
+  z-index: -1;
 }
 .teams__image {
   background-color: #37c5f0;
@@ -402,9 +404,47 @@ section {
 .teams__text p {
   font-size: 1.1em;
   line-height: 1.5em;
-  padding-bottom: 16px;
+  padding-bottom: 20px;
 }
 .teams__text a {
   font-size: 1.2em;
-  color: #1264A3;
+  color: #1264a3;
+}
+
+.flexibility {
+  padding-top: 45px;
+  height: 785px;
+  position: relative;
+  z-index: -1;
+}
+.flexibility__image {
+  background-color: #2db47c;
+  height: 400px;
+  width: 100%;
+  -webkit-clip-path: ellipse(75% 59% at center right);
+          clip-path: ellipse(75% 59% at center right);
+}
+.flexibility__image img {
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 30%;
+  height: 95%;
+}
+.flexibility__text {
+  padding: 0 4vw;
+}
+.flexibility__text h2 {
+  font-size: 2em;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.flexibility__text p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+.flexibility__text a {
+  font-size: 1.2em;
+  color: #1264a3;
 }/*# sourceMappingURL=styles.css.map */

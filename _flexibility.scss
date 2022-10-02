@@ -1,0 +1,38 @@
+.flexibility {
+    padding-top: 45px;
+    height: 785px;
+    position: relative;
+    z-index: -1;
+    &__image {
+      background-color: #2db47c;
+      height: 400px;
+      width: 100%;
+      clip-path: ellipse(75% 59% at center right);
+  
+      img {
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 30%;
+        height: 95%;
+      }
+    }
+    &__text {
+      padding: 0 4vw;
+      h2 {
+        font-size: 2em;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.5em;
+        padding-bottom: 20px;
+      }
+      a {
+        font-size: 1.2em;
+        color: #1264a3;
+      }
+    }
+  }
+  
