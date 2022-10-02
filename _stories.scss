@@ -1,0 +1,14 @@
+.stories{
+    background-color: #fefefe;
+    &__main{
+        padding-top: 40px;
+        height: 700px;
+        &--video{
+            border-top-right-radius:500px;
+            border-bottom-right-radius:500px;
+            overflow: hidden;
+            height: 200px;
+            width: 95%;
+        }
+    }    
+}

@@ -6,14 +6,14 @@
   &__image {
     background-color: #37c5f0;
     height: 400px;
-    width: 100%;
-    clip-path: ellipse(75% 59% at center left);
-
+    width: 70%;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
 
     img {
       width: 60%;
       margin-top: 5%;
-      margin-left: 10%;
+      margin-left: 31%;
       height: 95%;
     }
   }

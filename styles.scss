@@ -58,6 +58,7 @@ table {
   }
 
   $slack-color: #541554;
+  $slack-color2:#611f69;
 
 @import "_header.scss";
 @import "_hero.scss";
@@ -65,4 +66,5 @@ table {
 @import "_teams.scss";
 @import "_flexibility.scss";
 @import "_agility.scss";
-@import"_confidence.scss";
+@import "_confidence.scss" ; 
+@import "_stories.scss";

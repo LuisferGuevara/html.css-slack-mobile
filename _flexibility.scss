@@ -3,17 +3,20 @@
   height: 795px;
   position: relative;
   z-index: -1;
+
   &__image {
     background-color: #2db47c;
     height: 400px;
-    width: 100%;
-    clip-path: ellipse(75% 59% at center right);
+    width: 70%;
+    margin-left: 30%;
+    border-top-left-radius:500px;
+    border-bottom-left-radius:500px;
 
     img {
       width: 60%;
       margin-top: 5%;
-      margin-left: 30%;
-      height: 95%;
+      margin-left: 10%;
+      height: 96%;
     }
   }
   &__text {

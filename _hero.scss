@@ -2,6 +2,21 @@
 // FIRST SECTION}
 body{
   position: relative;
+  .widget {
+    background-color: #611f69;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 40px;
+    border-radius: 4px;
+    span {
+      font-size: 2.1em;
+    }
+  }
 }
 main {
   width: 100vw;
@@ -41,6 +56,7 @@ main {
         text-transform: uppercase;
         font-weight: 600;
         background-color: whitesmoke;
+        color: $slack-color2;
 
         &:nth-of-type(2) {
           margin-top: 10px;
@@ -68,19 +84,5 @@ main {
       }
     }
   }
-  .widget {
-    background-color: $slack-color;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    height: 60px;
-    bottom: 30px;
-    right: 40px;
-    border-radius: 4px;
-    span {
-      font-size: 2em;
-    }
-  }
+  
 }
