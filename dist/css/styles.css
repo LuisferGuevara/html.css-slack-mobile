@@ -79,8 +79,7 @@ table {
   .header-nav__btn:checked ~ .header-nav__list {
     top: 80px;
     width: 100vw;
-    z-index: 9999;
-    transition: visibility 0s linear 1s;
+    z-index: 1;
   }
   .header__logo {
     display: flex;
@@ -108,12 +107,12 @@ table {
     margin-right: 5px;
   }
   .nav-btn__line {
-    width: 100%;
-    height: 4px;
+    width: 55%;
+    height: 2px;
     border-radius: 4px;
     background-color: white;
     display: block;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     margin-top: 10%;
     position: relative;
     border-radius: 3px;
@@ -122,21 +121,15 @@ table {
   }
   .header-nav__btn:checked ~ .header-nav__menu span {
     opacity: 1;
-    transform: rotate(45deg) translate(-20px, -9px);
+    transform: rotate(45deg) translate(-9px, -10px);
     background: white;
-    width: 40px;
   }
   .header-nav__btn:checked ~ .header-nav__menu span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0, 0);
   }
   .header-nav__btn:checked ~ .header-nav__menu span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(-15px, 0px);
-    width: 40px;
-  }
-  .header-nav__search {
-    background-color: transparent;
-    border: none;
+    transform: rotate(-45deg) translate(0px, -1px);
   }
 }
 .header-nav__list {
@@ -156,7 +149,7 @@ table {
     padding: 0;
     justify-content: center;
     background-color: whitesmoke;
-    z-index: 999999;
+    z-index: 11;
   }
 }
 .header-nav__list ul {
@@ -189,10 +182,16 @@ table {
   margin-top: 20px;
 }
 .header-nav__list ul li:first-of-type label {
-  margin-left: 50%;
+  margin-left: 70%;
 }
 .header-nav__list ul li:first-of-type i {
-  font-size: 1.5em;
+  font-size: 1em;
+}
+.header-nav__list ul li:first-of-type li {
+  margin-left: 20px;
+}
+.header-nav__list ul li:first-of-type li a {
+  font-weight: 400;
 }
 @media screen and (max-width: 1074px) {
   .header-nav__list ul li {
@@ -203,8 +202,8 @@ table {
 }
 .header-nav__list ul li a {
   color: black;
-  font-size: 1.5em;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 600;
 }
 .header-nav__list ul .header__download {
   position: absolute;
@@ -254,13 +253,15 @@ table {
   margin-top: 1%;
 }
 
+body {
+  position: relative;
+}
+
 main {
   width: 100vw;
-  position: relative;
 }
 main .hero {
   background-color: #541554;
-  height: 885px;
   width: 100%;
   padding: 0 4vw;
   color: white;
@@ -279,7 +280,7 @@ main .hero h1 span {
 main .hero p {
   text-align: center;
   font-weight: 200;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   line-height: 1.5em;
 }
 main .hero__links {
@@ -301,12 +302,13 @@ main .hero__links a:nth-of-type(2) {
   margin-top: 10px;
   background-color: #4285f4;
   color: white;
-  position: relative;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
 }
 main .hero__links a:nth-of-type(2) img {
-  position: absolute;
-  height: 90%;
-  left: 5px;
+  height: 85%;
+  margin-left: 5px;
 }
 main .hero__image {
   width: 100%;
@@ -333,4 +335,28 @@ main .widget {
 }
 main .widget span {
   font-size: 2em;
+}
+
+section {
+  background-color: #f4ede5;
+  padding: 0 4vw;
+}
+
+.features p {
+  background-color: red;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 35px;
+  padding-bottom: 16px;
+  line-height: 1.2em;
+}
+.features__billboard {
+  background-color: lavender;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */

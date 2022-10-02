@@ -1,0 +1,24 @@
+section{
+    background-color: #f4ede5;
+    padding: 0 4vw;
+}
+.features{
+    p{
+        background-color: red;
+        font-size: 1em;
+        text-transform:uppercase;
+        text-align: center;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        padding-top: 35px;
+        padding-bottom: 16px;
+        line-height: 1.2em;
+    }
+    &__billboard{
+        background-color: lavender;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

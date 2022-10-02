@@ -25,8 +25,7 @@
     .header-nav__btn:checked ~ .header-nav__list {
       top: 80px;
       width: 100vw;
-      z-index: 9999;
-      transition: visibility 0s linear 1s;
+      z-index: 1;
     }
     .header__logo {
       display: flex;
@@ -56,12 +55,12 @@
     }
   
     .nav-btn__line {
-      width: 100%;
-      height: 4px;
+      width: 55%;
+      height: 2px;
       border-radius: 4px;
       background-color: white;
       display: block;
-      margin-bottom: 10%;
+      margin-bottom: 3%;
       margin-top: 10%;
       position: relative;
       border-radius: 3px;
@@ -71,22 +70,15 @@
   
     .header-nav__btn:checked ~ .header-nav__menu span {
       opacity: 1;
-      transform: rotate(45deg) translate(-20px, -9px);
+      transform: rotate(45deg) translate(-9px, -10px);
       background: white;
-  
-      width: 40px;
     }
     .header-nav__btn:checked ~ .header-nav__menu span:nth-last-child(3) {
       opacity: 0;
       transform: rotate(0deg) scale(0, 0);
     }
     .header-nav__btn:checked ~ .header-nav__menu span:nth-last-child(2) {
-      transform: rotate(-45deg) translate(-15px, 0px);
-      width: 40px;
-    }
-    .header-nav__search {
-      background-color: transparent;
-      border: none;
+      transform: rotate(-45deg) translate(0px, -1px);
     }
   }
   
@@ -105,7 +97,8 @@
       padding: 0;
       justify-content: center;
       background-color: whitesmoke;
-      z-index: 999999;
+      z-index: 11;
+
     }
   
     ul {
@@ -117,7 +110,6 @@
         flex-direction: column;
         width: 90vw;
         height: 100%;
-  
         padding-top: 2%;
         display: flex;
       }
@@ -133,10 +125,16 @@
         &:first-of-type {
           margin-top: 20px;
           label {
-            margin-left: 50%;
+            margin-left: 70%;
           }
           i {
-            font-size: 1.5em;
+            font-size: 1em;
+          }
+          li {
+            margin-left: 20px;
+            a{
+              font-weight: 400;
+            }
           }
         }
   
@@ -148,8 +146,8 @@
   
         a {
           color: black;
-          font-size: 1.5em;
-          font-weight: 400;
+          font-size: 1em;
+          font-weight: 600;
         }
       }
       .header__download {

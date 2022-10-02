@@ -1,18 +1,15 @@
 // MAIN CONTENT
-// FIRST SECTIONg
-section {
+// FIRST SECTION}
+body{
+  position: relative;
 }
 main {
   width: 100vw;
-  position: relative;
-
   .hero {
     background-color: $slack-color;
-    height: 885px;
     width: 100%;
     padding: 0 4vw;
     color: white;
-
     h1 {
       padding-top: 85px;
       font-size: 2.5em;
@@ -27,7 +24,7 @@ main {
     p {
       text-align: center;
       font-weight: 200;
-      padding-bottom: 70px;
+      padding-bottom: 50px;
       line-height: 1.5em;
     }
     &__links {
@@ -49,12 +46,12 @@ main {
           margin-top: 10px;
           background-color: #4285f4;
           color: white;
-          position: relative;
-
+          display: grid;
+          grid-template-columns: 20% 80%;
+          grid-template-rows: 100%;
           img {
-            position: absolute;
-            height: 90%;
-            left: 5px;
+            height: 85%;
+            margin-left: 5px;
           }
         }
       }
@@ -71,19 +68,19 @@ main {
       }
     }
   }
-  .widget{
+  .widget {
     background-color: $slack-color;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    width:60px;
+    width: 60px;
     height: 60px;
     bottom: 30px;
     right: 40px;
     border-radius: 4px;
-    span{
-        font-size: 2em;
+    span {
+      font-size: 2em;
     }
   }
 }
