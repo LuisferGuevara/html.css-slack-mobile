@@ -105,6 +105,7 @@ table {
     height: 30px;
     justify-content: center;
     margin-right: 5px;
+    margin-right: 10px;
   }
   .nav-btn__line {
     width: 55%;
@@ -281,11 +282,10 @@ main {
 main .hero {
   background-color: #541554;
   width: 100%;
-  padding: 0 4vw;
   color: white;
 }
 main .hero h1 {
-  padding-top: 85px;
+  padding: 85px 4vw 0 4vw;
   font-size: 2.5em;
   line-height: 1.2em;
   text-align: center;
@@ -296,12 +296,13 @@ main .hero h1 span {
   color: #ecb22e;
 }
 main .hero p {
+  padding: 0 4vw 50px 4vw;
   text-align: center;
   font-weight: 200;
-  padding-bottom: 50px;
   line-height: 1.5em;
 }
 main .hero__links {
+  padding: 0 4vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -329,14 +330,16 @@ main .hero__links a:nth-of-type(2) img {
   height: 85%;
   margin-left: 5px;
 }
-main .hero__image {
+main .hero__video {
   width: 100%;
   margin-top: 8%;
   height: 350px;
 }
-main .hero__image img {
-  height: 100%;
-  width: 100%;
+main .hero__video video {
+  padding-top: 10%;
+  height: 90%;
+  width: 90%;
+  margin-left: 10%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -777,29 +780,29 @@ footer .footer__menu .footer__menu--list li a {
   color: black;
   font-size: 0.9em;
   font-weight: bold;
-  margin-right: 50vw;
+  margin-right: 48vw;
 }
 footer .footer__menu .footer__menu--list li .footer__sublist {
   display: none;
 }
 footer .footer__menu .footer__menu--list #footer__btn1 {
-  display: none;
+  visibility: hidden;
 }
 footer .footer__menu .footer__menu--list #footer__btn2 {
   visibility: hidden;
-  margin-right: 35px;
+  margin-right: 56px;
 }
 footer .footer__menu .footer__menu--list #footer__btn3 {
   visibility: hidden;
-  margin-right: 50px;
+  margin-right: 73px;
 }
 footer .footer__menu .footer__menu--list #footer__btn4 {
   visibility: hidden;
-  margin-right: 35px;
+  margin-right: 56px;
 }
 footer .footer__menu .footer__menu--list #footer__btn5 {
   visibility: hidden;
-  margin-right: 35px;
+  margin-right: 56px;
 }
 footer .footer__menu .footer__btn1:checked:checked ~ label i {
   transform: rotate(90deg);

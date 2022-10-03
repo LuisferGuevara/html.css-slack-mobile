@@ -9,7 +9,7 @@ footer {
     flex-direction: column;
     width: 100%;
     border-bottom: 2px solid lightgray;
-padding-bottom: 30px;
+    padding-bottom: 30px;
 
     &--image {
       background-color: aqua;
@@ -39,7 +39,7 @@ padding-bottom: 30px;
           color: black;
           font-size: 0.9em;
           font-weight: bold;
-          margin-right: 50vw;
+          margin-right: 48vw;
         }
         .footer__sublist {
           display: none;
@@ -47,23 +47,24 @@ padding-bottom: 30px;
       }
 
       #footer__btn1 {
-        display: none;
+      visibility: hidden;
+
       }
       #footer__btn2 {
         visibility: hidden;
-        margin-right: 35px;
+        margin-right: 56px;
       }
       #footer__btn3 {
         visibility: hidden;
-        margin-right: 50px;
+        margin-right: 73px;
       }
       #footer__btn4 {
         visibility: hidden;
-        margin-right: 35px;
+        margin-right: 56px;
       }
       #footer__btn5 {
         visibility: hidden;
-        margin-right: 35px;
+        margin-right: 56px;
       }
     }
 

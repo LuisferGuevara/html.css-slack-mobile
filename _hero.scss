@@ -23,10 +23,9 @@ main {
   .hero {
     background-color: $slack-color;
     width: 100%;
-    padding: 0 4vw;
     color: white;
     h1 {
-      padding-top: 85px;
+      padding:85px 4vw 0 4vw;
       font-size: 2.5em;
       line-height: 1.2em;
       text-align: center;
@@ -37,12 +36,13 @@ main {
       }
     }
     p {
+      padding: 0 4vw 50px 4vw;
       text-align: center;
       font-weight: 200;
-      padding-bottom: 50px;
       line-height: 1.5em;
     }
     &__links {
+      padding: 0 4vw;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -72,14 +72,16 @@ main {
         }
       }
     }
-    &__image {
+    &__video {
       width: 100%;
       margin-top: 8%;
       height: 350px;
 
-      img {
-        height: 100%;
-        width: 100%;
+      video {
+        padding-top: 10%;
+        height: 90%;
+        width: 90%;
+        margin-left: 10%;
         object-fit: cover;
       }
     }
