@@ -60,15 +60,15 @@ table {
   $slack-color: #541554;
   $slack-color2:#611f69;
 
-@import "_header.scss";
-@import "_hero.scss";
-@import "_features.scss";
-@import "_teams.scss";
-@import "_flexibility.scss";
-@import "_agility.scss";
-@import "_confidence.scss" ; 
-@import "_stories.scss";
-@import "_explore.scss";
-@import "_cta.scss";
-@import "_footer-1.scss";
-@import "_footer-2.scss";
+@import "./_header.scss";
+@import "./_hero.scss";
+@import "./_features.scss";
+@import "./_teams.scss";
+@import "./_flexibility.scss";
+@import "./_agility.scss";
+@import "./_confidence.scss" ; 
+@import "./_stories.scss";
+@import "./_explore.scss";
+@import "./_cta.scss";
+@import "./_footer-1.scss";
+@import "./_footer-2.scss";
