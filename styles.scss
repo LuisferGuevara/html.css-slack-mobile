@@ -28,6 +28,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  max-width: 600px !important;
+  margin: 0 auto;
 }
 ol, ul {
 	list-style: none;
@@ -45,30 +47,20 @@ table {
 	border-spacing: 0;
 }
 
-@mixin tablet {
-    @media only screen and (min-width: #{$layout_bp_tablet}) {
-      @content;
-    }
-  }
-  
-  @mixin desktop {
-    @media only screen and (min-width: #{$layout_bp_desktop}) {
-      @content;
-    }
-  }
+
 
   $slack-color: #541554;
   $slack-color2:#611f69;
 
-@import "./_header.scss";
-@import "./_hero.scss";
-@import "./_features.scss";
-@import "./_teams.scss";
-@import "./_flexibility.scss";
-@import "./_agility.scss";
-@import "./_confidence.scss" ; 
-@import "./_stories.scss";
-@import "./_explore.scss";
-@import "./_cta.scss";
-@import "./_footer-1.scss";
-@import "./_footer-2.scss";
+@import "./styles/header";
+@import "./styles/hero";
+@import "./styles/features";
+@import "./styles/teams";
+@import "./styles/flexibility";
+@import "./styles/agility";
+@import "./styles/confidence" ; 
+@import "./styles/stories";
+@import "./styles/explore";
+@import "./styles/cta";
+@import "./styles/footer-1";
+@import "./styles/footer-2";

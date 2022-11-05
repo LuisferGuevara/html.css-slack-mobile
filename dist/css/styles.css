@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  max-width: 600px !important;
+  margin: 0 auto;
 }
 
 ol, ul {
@@ -54,7 +56,8 @@ table {
 .header {
   margin-top: 0;
   position: fixed;
-  width: 100vw;
+  width: 100%;
+  max-width: 600px;
   height: 80px;
   background-color: #541554;
 }
@@ -71,7 +74,7 @@ table {
   display: none;
 }
 
-@media screen and (max-width: 1074px) {
+@media screen and (max-width: 600px) {
   .header-nav {
     height: 100%;
     align-items: center;
@@ -138,7 +141,7 @@ table {
   display: flex;
   width: 100%;
 }
-@media screen and (max-width: 1074px) {
+@media screen and (max-width: 600px) {
   .header-nav__list {
     height: 100vh;
     width: 100vw;
@@ -159,21 +162,13 @@ table {
   margin-bottom: auto;
   position: relative;
 }
-@media screen and (max-width: 1074px) {
+@media screen and (max-width: 600px) {
   .header-nav__list ul {
     flex-direction: column;
-    width: 90vw;
+    width: 90%;
     height: 100%;
     padding-top: 2%;
     display: flex;
-  }
-}
-@media screen and (min-width: 1075px) {
-  .header-nav__list ul {
-    width: 100%;
-    justify-content: space-between;
-    background-color: red;
-    flex-direction: row;
   }
 }
 .header-nav__list ul li {
@@ -194,7 +189,7 @@ table {
 .header-nav__list ul li:first-of-type li a {
   font-weight: 400;
 }
-@media screen and (max-width: 1074px) {
+@media screen and (max-width: 600px) {
   .header-nav__list ul li {
     display: block;
     width: 100%;
@@ -214,7 +209,7 @@ table {
   display: flex;
   flex-direction: column;
   margin-top: 20%;
-  padding-right: 4vw;
+  padding-right: 4%;
 }
 .header-nav__list ul .header__download a {
   height: 60px;
@@ -247,7 +242,7 @@ table {
 }
 .header-nav__list .btn1:checked ~ .sub-list1 {
   display: block;
-  margin-left: 3vw;
+  margin-left: 3%;
   margin-bottom: 0;
 }
 .header-nav__list .btn1:checked ~ .sub-list1 li:first-of-type {
@@ -277,7 +272,7 @@ body .widget span {
 }
 
 main {
-  width: 100vw;
+  width: 100%;
 }
 main .hero {
   background-color: #541554;
@@ -285,7 +280,7 @@ main .hero {
   color: white;
 }
 main .hero h1 {
-  padding: 85px 4vw 0 4vw;
+  padding: 85px 4% 0 4%;
   font-size: 2.5em;
   line-height: 1.2em;
   text-align: center;
@@ -296,13 +291,13 @@ main .hero h1 span {
   color: #ecb22e;
 }
 main .hero p {
-  padding: 0 4vw 50px 4vw;
+  padding: 0 4% 50px 4%;
   text-align: center;
   font-weight: 200;
   line-height: 1.5em;
 }
 main .hero__links {
-  padding: 0 4vw;
+  padding: 0 4%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -349,15 +344,15 @@ section {
 }
 
 .features {
-  padding: 0 4vw;
+  padding: 0 4%;
 }
 .features p {
   font-size: 0.9em;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
-  padding-left: 8vw;
-  padding-right: 8vw;
+  padding-left: 8%;
+  padding-right: 8%;
   padding-top: 35px;
   padding-bottom: 30px;
   line-height: 1.2em;
@@ -400,7 +395,7 @@ section {
   height: 95%;
 }
 .teams__text {
-  padding: 0 4vw;
+  padding: 0 4%;
 }
 .teams__text h2 {
   font-size: 2em;
@@ -479,7 +474,7 @@ section {
   height: 95%;
 }
 .agility__text {
-  padding: 0 4vw;
+  padding: 0 4%;
 }
 .agility__text h2 {
   font-size: 1.8em;
@@ -501,7 +496,7 @@ section {
 .confidence {
   background-color: #fefefe;
   height: 930px;
-  padding: 0 4vw;
+  padding: 0 4%;
 }
 .confidence h3 {
   font-size: 1.8em;
@@ -583,7 +578,7 @@ section {
 }
 .stories__main--text {
   margin-top: 80px;
-  padding: 0 4vw;
+  padding: 0 4%;
 }
 .stories__main--text p {
   font-size: 1.3em;
@@ -614,7 +609,7 @@ section {
   margin-left: 5px;
 }
 .stories__metatext {
-  padding: 80px 4vw 20px 4vw;
+  padding: 80px 4% 20px 4%;
   color: gray;
   text-align: center;
   line-height: 1.3em;
@@ -623,7 +618,7 @@ section {
 }
 
 .explore {
-  padding: 0 4vw;
+  padding: 0 4%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -708,7 +703,7 @@ section {
   margin-bottom: 20px;
 }
 .cta h2 {
-  padding: 80px 4vw 20px 4vw;
+  padding: 80px 4% 20px 4%;
   font-size: 1.6em;
   text-align: center;
   color: white;
@@ -716,7 +711,7 @@ section {
   line-height: 1.25em;
 }
 .cta div {
-  padding: 20px 4vw 0 4vw;
+  padding: 20px 4% 0 4%;
 }
 .cta div a {
   font-size: 0.9em;
@@ -740,7 +735,7 @@ section {
 
 footer {
   height: 830px;
-  padding: 0 4vw;
+  padding: 0 4%;
   background-color: #fefefe;
 }
 footer .footer__menu {
@@ -767,7 +762,7 @@ footer .footer__menu .footer__menu--list {
   list-style: none;
   margin-bottom: auto;
   flex-direction: column;
-  width: 90vw;
+  width: 90%;
   height: 100%;
   padding-top: 2%;
 }
@@ -780,7 +775,7 @@ footer .footer__menu .footer__menu--list li a {
   color: black;
   font-size: 0.9em;
   font-weight: bold;
-  margin-right: 48vw;
+  margin-right: 61.2%;
 }
 footer .footer__menu .footer__menu--list li .footer__sublist {
   display: none;

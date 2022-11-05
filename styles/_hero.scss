@@ -19,13 +19,13 @@ body{
   }
 }
 main {
-  width: 100vw;
+  width: 100%;
   .hero {
     background-color: $slack-color;
     width: 100%;
     color: white;
     h1 {
-      padding:85px 4vw 0 4vw;
+      padding:85px 4% 0 4%;
       font-size: 2.5em;
       line-height: 1.2em;
       text-align: center;
@@ -36,13 +36,13 @@ main {
       }
     }
     p {
-      padding: 0 4vw 50px 4vw;
+      padding: 0 4% 50px 4%;
       text-align: center;
       font-weight: 200;
       line-height: 1.5em;
     }
     &__links {
-      padding: 0 4vw;
+      padding: 0 4%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
